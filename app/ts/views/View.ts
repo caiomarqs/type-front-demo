@@ -1,3 +1,5 @@
+import { logRunTime } from "../helpers/decorators/index";
+
 export default abstract class View<T>{
     
     private _element : JQuery
@@ -8,6 +10,7 @@ export default abstract class View<T>{
         this._scape = scape
     }
 
+    @logRunTime(true)
     update(model: T): void{
         const upTemplate = this.template(model)
         if(this._scape) upTemplate.replace(/<script>[\s\S]*?<\/script>/g, '')
