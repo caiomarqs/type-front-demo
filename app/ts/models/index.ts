@@ -1,3 +1,6 @@
 export * from './Negociacao'
 export * from './Negociacoes'
 export * from './NegociacaoAPI'
+export * from './Printer'
+export * from './Equals'
+export * from './NegociacaoGeneric'

@@ -13,7 +13,7 @@ export const logRunTime = (timeStamp: boolean = false) => {
             const methodReturn = method.apply(this, args) //apply -> Chama o metodo novamente passando o contexto de execução e os parametros
             const t2 = performance.now()
 
-
+ 
             const runTimeProps = {
                 methodName: propKey,
                 params: args,

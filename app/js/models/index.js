@@ -1,4 +1,4 @@
-System.register(["./Negociacao", "./Negociacoes", "./NegociacaoAPI"], function (exports_1, context_1) {
+System.register(["./Negociacao", "./Negociacoes", "./NegociacaoAPI", "./Printer", "./Equals", "./NegociacaoGeneric"], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     function exportStar_1(m) {
@@ -18,6 +18,15 @@ System.register(["./Negociacao", "./Negociacoes", "./NegociacaoAPI"], function (
             },
             function (NegociacaoAPI_1_1) {
                 exportStar_1(NegociacaoAPI_1_1);
+            },
+            function (Printer_1_1) {
+                exportStar_1(Printer_1_1);
+            },
+            function (Equals_1_1) {
+                exportStar_1(Equals_1_1);
+            },
+            function (NegociacaoGeneric_1_1) {
+                exportStar_1(NegociacaoGeneric_1_1);
             }
         ],
         execute: function () {
